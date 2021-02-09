@@ -4,10 +4,8 @@
             <lightning-card title="Create A New Account">
                 <lightning-record-edit-form object-api-name="Account" onsuccess={successHandler}>
                     <p><lightning-input-field field-name="Name"></lightning-input-field></p>
-                    <p>
-                        <lightning-input-field field-name="Phone"></lightning-input-field>
-                    </p>
-                    <p><lightning-input-field field-name="Website"></lightning-input-field></p>
+                    <p><lightning-input-field field-name="Phone"></lightning-input-field></p>
+                    <p><lightning-input-field field-name="Webpage URL"></lightning-input-field></p>
                     <p><lightning-button type="submit" variant="brand" name="save" label="create account"></lightning-button></p>
                 </lightning-record-edit-form>
             </lightning-card>
@@ -23,7 +21,7 @@
                             <lightning-output-field field-name="Phone"></lightning-output-field>
                         </p>
                         <p>
-                            <lightning-output-field field-name="Website"></lightning-output-field>
+                            <lightning-output-field field-name="Site Name"></lightning-output-field>
                         </p>
                     </div>
                 </lightning-record-view-form>
